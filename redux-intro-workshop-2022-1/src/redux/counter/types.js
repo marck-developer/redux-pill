@@ -1,0 +1,10 @@
+export const GET_PROPERTIES = "GET_PROPERTIES";
+export const FAV_USER_PROPERTIES = "FAV_USER_PROPERTIES";
+export const FILTER_PROPERTIES = "FILTER_PROPERTIES";
+export const CITY_PROPERTIES = "CITY_PROPERTIES";
+export const RESET_PROPERTIES = "RESET_PROPERTIES";
+export const SET_FILTERS = 'SET_FILTERS';
+export const SET_TOKEN ='SET_TOKEN';
+export const LOGIN ='LOGIN';
+export const REGISTER ='REGISTER';
+export const LOGOUT ='LOGOUT';
