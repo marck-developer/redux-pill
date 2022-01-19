@@ -23,7 +23,7 @@ const reducer = (state = INITIAL_STATE, action) => {
                 ...state, value: action.payload
             };
 
-        case FAV_USER_PROERTIES:
+        case FAV_USER_PROPERTIES:
             return {
                 ...state, favorites: action.payload
             };
@@ -38,7 +38,7 @@ const reducer = (state = INITIAL_STATE, action) => {
                 ...state, value: action.payload
             };
 
-        case RESET_PROPIERTIES:
+        case RESET_PROPERTIES:
             return {
                 ...INITIAL_STATE
             };
